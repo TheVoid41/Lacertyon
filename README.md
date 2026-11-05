@@ -15,3 +15,5 @@ Lacertyon Nations have discord servers you can join which have information regar
 Discord Invites to nations and the categories the nations are in.
 
 ### Centre nations
+
+Imperium Imperterritus - https://discord.gg/4EjcVDrrqc
