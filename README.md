@@ -1,6 +1,6 @@
 # Lacertyon Introduction
 
-Lacertyon is a world building and diplomatic Project. The Project is set on a Planet on which there are many different joinable nations. It consists of several different components such as: 
+Lacertyon is a World-building Project. The Project is set on a Planet on which there are many different joinable nations. It consists of several different components such as: 
 
 - Lore Drops
 - Central Lore Drops
@@ -15,7 +15,7 @@ Website Link: -currently unavailable-
 
 ## Main Communications
 
-Lacertyon Nations have discord servers you can join which have information regarding lacertyon and the specific nations. Lacertyon Nations are divided into specific categories. A nation being in a specific category is determined by how active it is and how important it is.
+Lacertyon Nations have Discord servers you can join which have information regarding Lacertyon and the specific nations. Lacertyon Nations are divided into specific categories. A nation being in a specific category is determined by how active it is and how important it is.
 
 
 ## The Server Invites
