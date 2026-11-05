@@ -8,4 +8,7 @@ Website Link: -currently unavailable-
 
 ## Main Communications
 
-Lacertyon Nations have discord servers you can join which have information regarding lacertyon and the specific nations.
+Lacertyon Nations have discord servers you can join which have information regarding lacertyon and the specific nations. Lacertyon Nations are divided into specific categories. A nation being in a specific category is determined by how active it is and how important it is.
+
+#The Server Invites
+
