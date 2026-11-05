@@ -17,3 +17,5 @@ Discord Invites to nations and the categories the nations are in.
 ### Centre nations
 
 Imperium Imperterritus - https://discord.gg/4EjcVDrrqc
+
+Bravus Federation - https://discord.gg/RW4wWZrHbB
