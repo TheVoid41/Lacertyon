@@ -12,3 +12,6 @@ Lacertyon Nations have discord servers you can join which have information regar
 
 ## The Server Invites
 
+Discord Invites to nations and the categories the nations are in.
+
+# Centre nations
