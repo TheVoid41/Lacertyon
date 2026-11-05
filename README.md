@@ -6,6 +6,6 @@ Lacertyon is a world building and diplomatic Project. It consists of several dif
 
 Website Link:
 
-## Run locally
+## Main Communications
 
-Add the steps needed to view or develop the site locally.
+Lacertyon Nations have discord servers you can join which have information regarding lacertyon and the specific nations.
