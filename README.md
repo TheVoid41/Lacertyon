@@ -26,8 +26,8 @@ Discord Invites to nations and the categories the nations are in.
 
 The main nations in Lacertyon:
 
-- Imperium Imperterritus - https://discord.gg/4EjcVDrrqc
+- Imperium Imperterritus: https://discord.gg/4EjcVDrrqc
 
-- Bravus Federation - https://discord.gg/RW4wWZrHbB
+- Bravus Federation: https://discord.gg/RW4wWZrHbB
 
-- Hydrux Empyreum - https://discord.gg/ZPGTdVUUKc
+- Hydrux Empyreum: https://discord.gg/ZPGTdVUUKc
