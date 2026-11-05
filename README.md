@@ -18,7 +18,7 @@ The Website is currently being built. Check back later!
 Lacertyon Nations have Discord servers you can join which have information regarding Lacertyon and the specific nations. Lacertyon Nations are divided into specific categories. A nation being in a specific category is determined by how active it is and how important it is.
 
 
-## The Server Invites
+## Join Our Nations!
 
 Discord Invites to nations and the categories the nations are in.
 
