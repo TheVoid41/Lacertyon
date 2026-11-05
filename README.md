@@ -19,3 +19,5 @@ Discord Invites to nations and the categories the nations are in.
 Imperium Imperterritus - https://discord.gg/4EjcVDrrqc
 
 Bravus Federation - https://discord.gg/RW4wWZrHbB
+
+Hydrux Empyreum - https://discord.gg/ZPGTdVUUKc
