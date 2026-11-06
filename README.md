@@ -11,7 +11,7 @@ Lacertyon is a World-building Project. The Project is set on a Planet on which t
 
 ## Our Website
 
-The Website is currently being built. Check back later!
+The Website is currently being built. You can [view the current page](index.html) and check back later for updates!
 
 ## Main Communications
 
