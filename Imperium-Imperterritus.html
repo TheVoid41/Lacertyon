@@ -14,14 +14,34 @@
 										  This page contains more information regarding this fictional nation." />
 
 		<style>
-			
-			:root {
+			.skip-link {
+ 	 					position: absolute;
+  						top: 0.5rem;
+  						left: -9999px;
+  						z-index: 1;
+  						padding: 0.75rem 1rem;
+						background: #fff;
+  						color: #111;
+					   }
+
+			.skip-link:focus {
+  							  left: 0.5rem;
+							 }
+
+			nav ul {
+  					display: flex;
+  					flex-wrap: wrap;
+  					gap: 1rem;
+  					padding: 0;
+  					list-style: none;
+				   }
+			 :root {
  				 	--page-bg: #640000;
  			 		--card-bg: #37474f;
  				 	--text: #ffffff;
 				 	--accent: #a7e8d5;
  				 	--accent-hover: #d0fff0;
-				  }
+				   }
 
 				* {
  				 box-sizing: border-box;
@@ -98,8 +118,7 @@
   </head>
 
   <body>
-	  
-	  <body>
+	
   		<a class="skip-link" href="#main-content">Skip to content</a>
 
  		<header>
@@ -113,16 +132,15 @@
     		</nav>
   		</header>
 
-  		<main id="main-content">
-			
-	<main>
+  	  <main id="main-content">
 		
 		<h1>Information Regarding the Imperium</h1>
 
 			<p>The things all members of the imperium should know.</p>
-
+		  
+	<section id="community">
 		<h2>Information Regarding the Community</h2>
-
+	
 			<p>Imperium Imperterritus is the Strongest and most well known nation in all of Lacertyon.
 				It is also the oldest nation in Lacertyon since it predates Lacertyon itself.
 				The Imperial Community was founded in either 2024 or 2025 depending on what do you consider the true Imperium.
@@ -130,7 +148,9 @@
 			<p>The nation operates not only on Lacertyon but it also operates on platforms like Polytoria.
 				The main goal of the Imperium is to have full control over the world and create a utopia using innovative technology.</p>
 			<p>Fun Fact: Imperium Imperterritus was called Imperium Proelium for a short time due to the founder not knowing much latin.</p>
-
+	</section>
+		  
+	<section id="lore">	  
 		<h2>Main Lore of the Imperium</h2>
 
 			<p>Imperium Imperterritus or the Fearless Empire is the most feared and brutal superpower that occupies around 2/3 of the Ersumian continent.
@@ -142,13 +162,15 @@
 				A global conflict that if not stopped in a year will cause the planet to be destroyed.
 				The current year in lore is 1986.
 				The lore universe is called Lacertyon.</p>
+	</section>
 
 		<h2>Imperial Creations</h2>
 
 			<p>The Engineering Column is the Column responsible for creating, updating and maintaining games of the Imperium.
 			All developers in it are volunteers and dont get paid. The Development Roadmap can be found on the Imperial Discord Server.
 			The games of the Imperium can vary from simple raid and training games onto full on nuclear plants.</p>
-
+	
+	<section id="columns">
 		<h2>Imperial Columns</h2>
 
 			<p>The Imperial government is divided into Columns.
@@ -161,16 +183,21 @@
 				<li>Knowledge Column</li>
 				<li>Management Column</li>
 			</ul>
+	</section>
 
+	<section id="armed-forces">
 		<h2>Imperial Armed Forces</h2>
 
 			<p>The Imperial Armed Forces (IAF) is the attack and defensive force of the Imperium.
 				It is divided into the Ground Force, Air Force and Naval Force.
 				It is the most active part of the Imperium and the one that is the easiest to join.
-				To join you have to join their discord server. The link to their discord server - https://discord.gg/8M7trQRfVU </p>
-		
-	</main>  
+			<p>To join, visit the
+  			<a href="https://discord.gg/8M7trQRfVU">Imperial Armed Forces Discord server</a>.
+			</p>	
+	</section>
+		  
+</main>  
 	  
-  </body>
+ </body>
 
 </html>
