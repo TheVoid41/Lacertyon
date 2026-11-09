@@ -18,6 +18,50 @@
 
 		<style>
 			
+		.skip-link {
+    				position: absolute;
+    				top: 0.5rem;
+    				left: -9999px;
+    				z-index: 1;
+    				padding: 0.75rem 1rem;
+    				background: #fff;
+    				color: #111;
+				   }
+
+		.skip-link:focus {
+    			   left: 0.5rem;
+				   }
+
+			header {
+    				max-width: 900px;
+    				margin: 0 auto;
+				   }
+
+			nav ul {
+    				display: flex;
+    				flex-wrap: wrap;
+    				gap: 1rem;
+    				width: fit-content;
+    				max-width: 100%;
+    				margin: 0 0 1rem;
+    				padding: 0.75rem 1rem;
+    				list-style: none;
+    				background: #add8e6;
+    				border-radius: 8px;
+				   }
+
+			nav li {
+    				margin: 0;
+				   }
+
+			nav a {
+    			   color: #12313b;
+				  }
+
+			nav a:hover,
+			nav a:focus-visible {
+    			  color: #000;
+				  }
 			:root {
  				 	--page-bg: #263238;
  			 		--card-bg: #37474f;
@@ -101,7 +145,23 @@
 	</head>
 
 	<body>
-		
+	
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#project-components">Project Components</a></li>
+                <li><a href="#nations">Nations</a></li>
+                <li><a href="#centre-nations">Centre Nations</a></li>
+                <li><a href="#major-nations">Major Nations</a></li>
+                <li><a href="#regular-nations">Regular Nations</a></li>
+                <li><a href="#background-nations">Background Nations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
 	  <main>
 		  
 		<h1>Information Regarding Lacertyon</h1>
