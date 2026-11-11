@@ -33,23 +33,27 @@
 			nav ul {
   					display: flex;
   					flex-wrap: wrap;
+  					justify-content: center;
   					gap: 1rem;
   					width: fit-content;
-  					margin: 0 auto 1rem;
+  					margin: 0 auto 1.5rem;
   					padding: 0.75rem 1rem;
   					list-style: none;
   					background: #d4af37;
-  					border-radius: 8px;
+  					border-radius: 10px;
 				   }
 
 			nav a {
-  				   color: #201800;
+  					color: #1b1b1b;
+  					text-decoration: none;
+  					font-weight: 700;
 				  }
 
 			nav a:hover,
 			nav a:focus-visible {
-  				  color: #000;
-				  }
+  				  text-decoration: underline;
+  				  text-underline-offset: 0.15em;
+				   }
 			
 			 :root {
  				 	--page-bg: #006402;
@@ -164,8 +168,8 @@
   				</ul>
 </section>
 		  
-	<section id="community">
-		<h2>Information Regarding the Community</h2>
+	<section id="community" aria-labelledby="community-title">
+		<h2 id="community-title">Information Regarding the Community</h2>
 	
 			<p><a href="https://discord.gg/yhDQ6xvXsH" target="_blank" rel="noopener noreferrer">The Bravus Federation</a>
 				is the second strongest and second most well known nation in all of Lacertyon.
