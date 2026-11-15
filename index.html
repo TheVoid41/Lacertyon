@@ -17,130 +17,150 @@
 		<meta name="google-site-verification" content="3yErfRndeFi6GyqymizirhSsO1uY1r7cRX7tDGuH9qw" />
 
 		<style>
-			
-		.skip-link {
-    				position: absolute;
-    				top: 0.5rem;
-    				left: -9999px;
-    				z-index: 1;
-    				padding: 0.75rem 1rem;
-    				background: #fff;
-    				color: #111;
-				   }
+    .skip-link {
+        position: absolute;
+        top: 0.5rem;
+        left: -9999px;
+        z-index: 1;
+        padding: 0.75rem 1rem;
+        background: #fff;
+        color: #111;
+    }
 
-		.skip-link:focus {
-    			   left: 0.5rem;
-				   }
+    .skip-link:focus {
+        left: 0.5rem;
+    }
 
-			header {
-    				max-width: 900px;
-    				margin: 0 auto;
-				   }
+    :root {
+        --page-bg: #263238;
+        --card-bg: #37474f;
+        --text: #ffffff;
+        --accent: #a7e8d5;
+        --accent-hover: #d0fff0;
+    }
 
-			nav ul {
-    				display: flex;
-    				flex-wrap: wrap;
-    				gap: 1rem;
-    				width: fit-content;
-    				max-width: 100%;
-    				margin: 0 auto 1rem;
-    				padding: 0.75rem 1rem;
-    				list-style: none;
-    				background: #add8e6;
-    				border-radius: 8px;
-				   }
+    * {
+        box-sizing: border-box;
+    }
 
-			nav li {
-    				margin: 0;
-				   }
+    body {
+        display: grid;
+        grid-template-columns: 220px minmax(0, 900px);
+        gap: 1.5rem;
+        align-items: start;
+        justify-content: center;
+        margin: 0;
+        padding: 2rem 1rem;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: var(--text);
+        background: var(--page-bg);
+    }
 
-			nav a {
-    			   color: #12313b;
-				  }
+    header {
+        max-width: none;
+        margin: 0;
+        position: sticky;
+        top: 1rem;
+    }
 
-			nav a:hover,
-			nav a:focus-visible {
-    			  color: #000;
-				  }
-			:root {
- 				 	--page-bg: #263238;
- 			 		--card-bg: #37474f;
- 				 	--text: #ffffff;
-				 	--accent: #a7e8d5;
- 				 	--accent-hover: #d0fff0;
-				  }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        width: 100%;
+        margin: 0;
+        padding: 0.75rem 1rem;
+        list-style: none;
+        background: #add8e6;
+        border-radius: 8px;
+    }
 
-				* {
- 				 box-sizing: border-box;
-				 }
-			body {
-  					margin: 0;
- 					padding: 2rem 1rem;
-  					font-family: Arial, sans-serif;
-  					line-height: 1.6;
-  					color: var(--text);
-  					background: var(--page-bg);
-				}
-			main {
-  					max-width: 900px;
-  					margin: 0 auto;
-  					padding: 2rem;
-  					background: var(--card-bg);
-  					border-radius: 12px;
-  					box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-				}
-			p {
-  			margin: 0.8rem 0;
-			}
+    nav li {
+        margin: 0;
+    }
 
-			ul {
-  			padding-left: 1.5rem;
-			}
+    nav a {
+        color: #12313b;
+    }
 
-			li {
-  			margin: 0.5rem 0;
-			}
+    nav a:hover,
+    nav a:focus-visible {
+        color: #000;
+    }
 
-			a {
-  			color: var(--accent);
-			}
+    main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem;
+        background: var(--card-bg);
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    }
 
-			a:hover,
-			a:focus-visible {
-  			color: var(--accent-hover);
-  			text-decoration-thickness: 2px;
-			}
-			h1,
-			h2,
-			h3 {
-  			line-height: 1.2;
-			}
+    p {
+        margin: 0.8rem 0;
+    }
 
-			h1 {
-  			margin-top: 0;
-  			font-size: clamp(2rem, 5vw, 2.8rem);
-			}
+    ul {
+        padding-left: 1.5rem;
+    }
 
-			h2 {
-  			margin-top: 2rem;
-  			padding-bottom: 0.4rem;
-  			border-bottom: 2px solid #c7d2d6;
-			}
+    li {
+        margin: 0.5rem 0;
+    }
 
-			h3 {
-  			margin-top: 1.5rem;
-			}
-			@media (max-width: 600px) {
- 			 body {
-    			padding: 1rem 0.75rem;
- 			 }
+    a {
+        color: var(--accent);
+    }
 
-  			main {
-   			padding: 1.25rem;
-  			}
-			}
-			
-		</style>
+    a:hover,
+    a:focus-visible {
+        color: var(--accent-hover);
+        text-decoration-thickness: 2px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        line-height: 1.2;
+    }
+
+    h1 {
+        margin-top: 0;
+        font-size: clamp(2rem, 5vw, 2.8rem);
+    }
+
+    h2 {
+        margin-top: 2rem;
+        padding-bottom: 0.4rem;
+        border-bottom: 2px solid #c7d2d6;
+    }
+
+    h3 {
+        margin-top: 1.5rem;
+    }
+
+    @media (max-width: 700px) {
+        body {
+            grid-template-columns: 1fr;
+            padding: 1rem 0.75rem;
+        }
+
+        header {
+            position: static;
+        }
+
+        nav ul {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        main {
+            padding: 1.25rem;
+        }
+    }
+</style>
 		
 	</head>
 
@@ -163,7 +183,6 @@
     </header>
 
     <main id="main-content">
-	  <main>
 		  
 		<h1>Information Regarding Lacertyon</h1>
 	
